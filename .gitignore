@@ -1,0 +1,41 @@
+# Thư viện phụ thuộc (Nặng, không cần push vì đã có package.json)
+node_modules/
+dist/
+build/
+.next/
+
+# Biến môi trường (CỰC KỲ QUAN TRỌNG: Chứa mật khẩu DB, Email, JWT Secret)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# File log (Ghi lại lỗi khi chạy server)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# File hệ thống (Tự sinh ra bởi hệ điều hành hoặc IDE)
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Vite/React cụ thể
+.vite/
+
+# Database SQLite (nếu bạn có dùng file local)
+*.sqlite
+*.sqlite3
+
+# Thư mục lưu trữ file upload (nếu sau này bạn làm chức năng upload ảnh)
+public/uploads/
+uploads/
